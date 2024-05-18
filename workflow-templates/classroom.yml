@@ -63,7 +63,7 @@ jobs:
     # Python test
     #
     #   https://github.com/classroom-resources/autograding-python-grader
-    # 
+    #
     # The new python test runner uses pytest by default,
     # if you'd like to use a different testing framework,
     # please create a "Custom command test" above.
@@ -92,12 +92,12 @@ jobs:
         PYTHON-TEST_RESULTS: "${{steps.python-test.outputs.result}}"
       with:
         runners: input-output-test,custom-command-test,python-test
-        
+
   ############################
   # Generate points bar badge
   #
   # Add badge to README.md with
-  # 
+  #
   #   ![Points](../../blob/badges/.github/badges/points-bar.svg)
   #
   # or if you want to float it to the right:
